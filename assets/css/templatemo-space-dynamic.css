@@ -629,7 +629,7 @@ header
   }
   .header-area {
     background-color: #f7f7f7;
-    padding: 0px 15px;
+    
     height: 100px;
     box-shadow: none;
     text-align: center;
@@ -874,10 +874,10 @@ Banner Style
 }
 
 .main-banner .left-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #2a2a2a;
-  line-height: 72px;
+  line-height: 50px;
 }
 
 .main-banner .left-content h2 em {
@@ -1487,7 +1487,7 @@ responsive
     text-align: left;
   }
   .our-services {
-    margin-top: 200px;
+    margin-top: 0px;
   }
   .our-services .left-image {
     margin-right: 0px;
@@ -1574,5 +1574,12 @@ responsive
   }
   .phone-info h4 span i {
     margin-left: 0px;
+  }
+
+  .main-banner .left-content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 40px;
   }
 }
